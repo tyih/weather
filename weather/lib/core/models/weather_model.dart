@@ -19,6 +19,7 @@ class WeatherModel {
   String fxLink;
   Now now;
   Refer refer;
+  String? address;
 
   factory WeatherModel.fromJson(Map<String, dynamic> json) => WeatherModel(
         code: json["code"],
