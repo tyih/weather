@@ -34,7 +34,6 @@ class WeatherProvider extends ChangeNotifier {
       if (context.mounted) {
         loadWeather(context);
       }
-      notifyListeners();
     } else {
       if (context.mounted) {
         loadWeather(context);
